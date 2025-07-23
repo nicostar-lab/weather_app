@@ -1,0 +1,119 @@
+.clouds{
+    background: url(https://s.w-x.co/fr-nuages-chaleur.jpg) center/cover;
+}
+.rain{
+    background: url(https://images.stockcake.com/public/0/7/9/0796bd2f-b458-4d4a-b923-19fcd6d22146_large/stormy-rainy-sky-stockcake.jpg) center/cover;
+}
+.clear{
+    background: url(https://imgcdn.stablediffusionweb.com/2024/9/18/94c841ef-48b0-4781-82ab-dcbe4aae5b0f.jpg) center/cover;
+}
+.thunderstorm{
+    background : url(https://media.istockphoto.com/id/517643357/photo/thunderstorm-lightning-with-dark-cloudy-sky.jpg?s=612x612&w=0&k=20&c=x3G3UijRPVGFMFExnlYGbnQtnlH6-oUoMU48BTkc0Os=) center/cover;
+}
+.snow{
+    background: url(https://previews.123rf.com/images/feelart/feelart1907/feelart190700050/127412242-snow-falling-on-sky-with-cloud-for-winter-season.jpg) center/cover;
+}
+
+body{
+    background: url(https://imgcdn.stablediffusionweb.com/2024/9/18/94c841ef-48b0-4781-82ab-dcbe4aae5b0f.jpg) center/cover;
+    
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#ville{
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #00000033;
+    backdrop-filter: blur(20px);
+    margin-bottom: 100px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+::-webkit-input-placeholder{
+    color: #ffffff;
+   
+}
+
+.box{
+    width: 600px;
+    height: 700px;
+    background-color: #00000033;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#temp{
+    font-size: 128px;
+    font-weight: bold;
+    color: white;
+}
+#name{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+h2 img{
+    width: 100px;
+    height: 100px;
+}
+h2, #commentaire{
+    font-size: 30px;
+    color: white;
+   
+}
+.details{
+    
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+    
+    #ville{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .box{
+        width: 80%;
+        height: auto;
+        padding: 30px;
+    }
+    #temp{
+        font-size: 64px;
+    }
+    #name{
+        font-size: 36px;
+    }
+    h2, #commentaire{
+        font-size: 20px;
+    }
+    
+}
