@@ -72,3 +72,12 @@ async function getWeather(withIp = true) {
 }   
 
 getWeather();
+
+const date = new Date()
+const weekday = date.toLocaleDateString('en-fr',{weekday:"long"})
+const day = date.toLocaleDateString('en-fr',{day:"numeric"})
+const month = date.toLocaleDateString('en-fr',{month:"long"})
+
+document.getElementById('weekday').textContent = weekday
+document.getElementById('day').textContent = day
+document.getElementById('month').textContent = month
