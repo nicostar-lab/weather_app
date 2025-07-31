@@ -32,7 +32,7 @@ Cette application météo simple affiche les conditions météorologiques actuel
 Les contributions sont les bienvenues !
 N'hésitez pas à forker le projet, proposer des améliorations ou signaler des bugs.
 
-Auteur : [nicostar-lab]
+Auteur : [nicostar-lab](https://github.com/nicostar-lab)
 
 
 
